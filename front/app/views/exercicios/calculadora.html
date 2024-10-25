@@ -1,0 +1,15 @@
+<div class="content">
+    <div class="main-content">
+        <input type="number" ng-model="vals.pri" name="primeiroNumero">
+        <input type="number" ng-model="vals.seg" name="segundoNumero">
+        <input type="button" value="Somar" ng-click="somar()">
+        <input type="button" value="Subtrair" ng-click="subtrair()">
+        <input type="button" value="Multiplicar" ng-click="multiplicar()">
+        <input type="button" value="Dividir" ng-click="dividir()">
+        <input type="button" value="Calcular Tudo" ng-click="colocarTudo()">
+        <input type="button" value="Limpar" ng-click="limpar()" style="background-color: brown;">
+
+
+        <p>Resultado: {{vals.res}}</p>
+    </div>
+</div>
